@@ -159,8 +159,7 @@ a:hover,a:active{
 #circle-pencil-div{
     display: flex;
     flex-wrap: wrap;
-    width: 150px;
-    height: 150px;
+   
     border-radius: 50%;
     background-color: #f3f2f1;
     margin: auto;
