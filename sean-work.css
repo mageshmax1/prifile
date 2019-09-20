@@ -1,0 +1,414 @@
+body {
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    /* color: #545454; */
+    
+}
+
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 6rem;
+    flex-direction: row;
+    background-color: #E0EBE8;
+}
+#headlogo{
+    display: flex;
+    flex-wrap: wrap;
+    flex:2;
+    height: 6rem;
+    background-color:#E0EBE8;
+}
+#logo{
+    margin-left:10em; 
+    width: 5em;
+    height: 6em;
+}
+
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    flex:1;
+    height: 6rem;
+    background-color: #E0EBE8;
+}
+#ulist{
+    list-style-type: none;
+    /* padding: 1em; */
+    font-size: large;
+    text-decoration: none;
+}
+
+#liabt{
+    color:#4ab19a;
+    float: left;
+    padding:1rem; 
+    text-decoration: none;
+}
+#liwrk{
+    color:#4ab19a;
+    float: left;
+    padding:1rem; 
+    text-decoration: none;
+}
+#lint{
+    color:#4ab19a;
+    float: left;
+    padding:1rem;
+    text-decoration: none; 
+
+}
+a{
+    color:#4ab19a;
+    text-decoration: none; 
+}
+a:hover,a:active{
+    color:#545454;
+}
+#liabt:hover{
+    color:#545454;
+}
+
+#liwrk:hover{
+    color:#545454;
+}
+
+#lint:hover{
+    color:#545454;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 108rem; */
+    background-color: gray;
+    flex-direction: column;
+}
+
+#banner{
+    display: flex;
+    width: 100%;
+    background-color:#E0EBE8;
+    height: 20rem;
+    flex-wrap: wrap;
+}
+
+#cloud{
+    display: flex;
+    flex:1;
+    background-color:#E0EBE8;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+#cloudlogo{
+    width: 11em;
+}
+#cloudlogo2{
+    width: 9em;
+    height: 3em;
+}
+#web{
+    display: flex;
+    flex:3;
+    background-color:#E0EBE8;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(khongfont.ttf);
+  }
+  #am{
+    text-align: center; 
+    font: 5em sans-serif;
+    font-family: myFirstFont; 
+    color:#4ab19a;
+}
+
+#cloud2{
+    display: flex;
+    flex: 1;
+    background-color: #E0EBE8;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#pencil-banner{
+     display: flex;
+     padding-top: 3em;
+     text-align: center;
+     background: white;
+}
+#pencil-white{
+    background-color: white;
+    display: flex;
+    flex: 2;
+}
+#pencil-cont{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+}
+#circle-pencil-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f3f2f1;
+    margin: auto;
+}
+#pencil-txt {
+    font-size: 2em;
+    color: #45b29a;
+}
+#pencil-para{
+    font-size: medium;
+}
+#pencil-white2{
+    display: flex;
+    flex: 2;
+    background-color: white;
+}
+
+#work-table{
+    display: flex;
+    background-color:#7dcc93;
+    flex-direction: row;
+    height: 58rem;
+    
+}
+#green-empty{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+}
+#green-table{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 3;
+    flex-direction: column;
+    padding-top: 7em;
+}
+#pic-frame{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #7dcc93;
+    
+    
+}
+#frame-img{
+    width: 38em;
+    height: 25em;
+    margin: auto;
+}
+#table-reservation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4em;
+}
+#res-title{
+    font-size: 3em;
+    color: #fff;
+}
+#interface{
+    font-size: 1.5em;
+    color: #fff;  
+    padding-top: 0.5em;
+}
+#res-txt{
+    font-size: 1.5em;
+    color: #fff;  
+    padding-bottom: 1em;
+    font-family: adobe-garamond-pro;
+    padding-top: 1em;
+    padding-bottom: 2.3em;
+
+}
+#view {
+    width: 12em;
+    height: 3em;
+    font-size: 1.5em;
+    /* font-family: brandon-grotesque; */
+    margin: auto;
+    background-color: #2b3d51;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+#view:hover {
+    background: #192430;
+}
+#green-empty2{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+}
+#can-cont{
+    display: flex;
+    flex-direction: row;
+}
+#white-can{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+}
+#can-div{
+    display: flex;
+    
+    flex: 3;
+    flex-direction: column;
+}
+
+#can{
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: #E0EBE8; */
+}
+@font-face {
+    font-family: my;
+    src: url(DarkerGrotesque-Regular.ttf);
+  }
+#i-can{
+    text-align: center;
+    font-size: 3em;
+    color:#4ab19a;
+    font-family: my;
+}
+#i-am{
+    text-align: center;
+    color:#45b29a;
+    font-size: 2em;
+    font-family: my;
+}
+#txttyp{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 5;
+    text-align: center;
+    font-size: medium;
+    padding-top: 2em;
+}
+
+#Message{
+    margin: auto;
+    margin-top: 2em;
+}
+#msgbut{
+    padding: 0.7em 1em;
+    background-color: #3EC5A3;
+    border: none;
+    border-radius: 0.2em;
+}
+#white-can2{
+    display: flex;  
+    flex-wrap: wrap;
+    flex: 2;
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 7rem;
+    flex-direction: column;
+    background-color:#4ab19a;
+    margin-top: 2em;
+    text-align: center;
+    
+}
+#footli{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#copyright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#footulist{
+    padding: 2em;
+    margin: auto;
+}
+#lili1{
+    padding-right: 1em;
+    float: left;
+}
+#lili2{
+    padding-right: 1em;
+    float: left;
+}
+#lili3{
+    padding-left: 1em;
+    float: left;
+}
+
+
+
+@media only screen and (max-width: 810px){
+    #headlogo{
+        flex:2;
+    }
+    #logo{
+       margin-left:1em;
+    }
+    #list{
+       flex:2;
+    }
+}
+@media only screen and (max-width: 810px){
+    #list{
+        flex:6;
+     }
+}
+
+@media only screen and (max-width: 550px){
+    #frame-img {
+        width: 28em;
+        height: 17em;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    #frame-img {
+        width: 21em;
+        height: 12em;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    #cloudlogo {
+        width: 6em;
+    }
+
+    #cloudlogo2 {
+        width: 6em;
+        height: 2em;
+    }
+}
+@media only screen and (max-width: 390px){
+    #ulist{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    #am{
+        font: 3em sans-serif;
+        font-family: myFirstFont;
+    }
+}
